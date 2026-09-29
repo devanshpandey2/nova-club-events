@@ -1,0 +1,12 @@
+{
+  // Tailwind uses custom CSS at-rules (@tailwind, @apply) that VS Code's
+  // built-in CSS validator doesn't understand — silence those false
+  // "Unknown at rule" warnings. They are NOT project errors; `vite build`
+  // compiles them fine.
+  "css.lint.unknownAtRules": "ignore",
+  "scss.lint.unknownAtRules": "ignore",
+  // Recommend the Tailwind IntelliSense extension when the workspace opens.
+  "editor.quickSuggestions": {
+    "strings": "on"
+  }
+}

@@ -1,0 +1,33 @@
+# Dependencies
+node_modules
+
+# Build output
+dist
+dist-ssr
+
+# Local env files
+*.local
+.env
+.env.*
+!.env.example
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea
+
+# Codebuff workspace metadata (not part of the app)
+.freebuff
+
+# VS Code — commit shared settings, ignore machine-specific stuff
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json

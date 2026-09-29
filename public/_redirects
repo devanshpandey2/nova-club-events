@@ -1,0 +1,2 @@
+# Netlify: SPA fallback so React Router routes like /events/xyz work on hard refresh
+/*  /index.html  200
